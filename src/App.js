@@ -1,11 +1,12 @@
 import React from "react";
-import Text from "./Abcd";
+import BodyMap from "./BodyMap";
+import SidePanel from "./SidePanelRight";
 
 function App() {
   return (
     <div className="App">
-      <h1>Abcd</h1>
-      <Text />
+      <BodyMap />
+      <SidePanel />
     </div>
   );
 }

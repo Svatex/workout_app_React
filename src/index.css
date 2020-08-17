@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  background-color: rgb(211, 211, 211);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+}
+
+body {
+  height: 100vh;
+}
+
+.svg-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+}
+
+svg {
+  fill: rgb(0, 78, 92);
+  stroke: white;
+  height: 50vh;
+}
+
+.Nohy:hover,
+.Ruce:hover,
+.Hrud:hover {
+  fill: rgba(139, 141, 0, 0.534);
+  opacity: 1;
+  transition: ease-in 0.3s;
+}
+
+.excercise-container {
+  position: fixed;
+  background-color: teal;
+  top: 0;
+  right: 0;
+  left: 75%;
+  bottom: 0;
+}
+
+.excercise-container h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+  background-color: teal;
+  border-bottom: rgb(255, 255, 255) 1px solid;
 }
